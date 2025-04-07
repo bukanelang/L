@@ -1,6 +1,6 @@
-# Novel Reader App
+# 
 
-A simple web-based novel reader built with **React**, **TailwindCSS**, and **Next.js**.
+A built with **React**, **TailwindCSS**, and **Next.js**.
 
 ## Features
 
