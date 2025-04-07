@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pembaca Novel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="judul">Judul Novel</h1>
+    <div class="kontrol">
+      <label>Ukuran Font:
+        <input type="range" id="fontSizeSlider" min="14" max="28" value="18">
+      </label>
+      <input type="text" id="searchInput" placeholder="Cari kata...">
+    </div>
+    <div id="isi-novel"></div>
+    <div class="navigasi">
+      <button onclick="prevBab()">Sebelumnya</button>
+      <button onclick="nextBab()">Berikutnya</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

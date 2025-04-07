@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.navigasi {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.kontrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+#fontSizeSlider {
+  width: 150px;
+}
+mark {
+  background-color: yellow;
+}
